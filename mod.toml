@@ -1,0 +1,19 @@
+id = "my-mod"
+name = "My Mod"
+version = "0.1.0"
+kzmSpec = 1
+
+[lua]
+sourceEntry = "lua/main.lua"
+distEntry = "dist/entry.lua"
+priority = 100
+
+[lua.hooks]
+scripts = []
+objects = []
+
+[patches]
+mode = "none"
+
+[native]
+plugins = ["dist/my-mod.dll"]

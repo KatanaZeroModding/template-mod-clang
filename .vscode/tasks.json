@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "KZM: Build native (C)",
+      "type": "shell",
+      "command": "./build.sh",
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    },
+    {
+      "label": "KZM: Build & Install",
+      "type": "shell",
+      "command": "kzm build",
+      "options": {
+        "env": { "KZM_REPO_ROOT": "${config:kzm.repoRoot}" }
+      },
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": []
+    }
+  ]
+}
