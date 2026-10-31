@@ -9,7 +9,7 @@ Mods created from this template should respect the same community rules as [KZM]
 - **Katana ZERO** and all **original game assets** (`data.win`, vanilla art, audio, story, etc.) are the **property of Askiisoft** and/or its publishers and licensors (including **Devolver Digital**, where applicable). This MIT template **does not license the game**.
 - KatanaZeroModding aims at **open development**: make **extending the game easier** for authors and **richer for players**, without piracy or distributing the commercial game.
 - Ship mods only to users with a **lawful copy** of the game. Do not attach full `data.win` dumps or vanilla asset packs to releases or issue trackers.
-- Credit **game rights holders**, **KZM** (if you use it), and **other modders** whose work you bundle. Add a **`THIRD_PARTY.md`** in your mod when you reuse wormfdn's Snow, vanilla extracts, or other people's files.
+- Credit **game rights holders**, **KZM** (if you use it), and **other modders** whose work you bundle. Add a **`THIRD_PARTY.md`** in your mod when you reuse fdnworm's Snow, vanilla extracts, or other people's files.
 
 ## Affiliation
 
