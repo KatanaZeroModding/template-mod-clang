@@ -17,3 +17,16 @@ mode = "none"
 
 [native]
 plugins = ["dist/my-mod.dll"]
+
+[i18n]
+defaultLocale = "en"
+fallbackLocale = "en"
+
+[i18n.ui]
+en = "i18n/en.json"
+ru = "i18n/ru.json"
+
+[i18n.dialogues]
+en = "i18n/dialogues/en.kzd"
+ru = "i18n/dialogues/ru.kzd"
+
