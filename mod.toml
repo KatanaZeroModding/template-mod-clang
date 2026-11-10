@@ -1,22 +1,40 @@
 id = "my-mod"
 name = "My Mod"
 version = "0.1.0"
-kzmSpec = 1
+description = "Кратко опишите, что делает ваш мод — это текст под названием в лаунчере."
+kzm_spec = 1
+legacy = false
+assets = []
+
+[game]
+cleanRoot = false
+
+[depends]
+
+[conflicts]
+mods = []
 
 [lua]
 sourceEntry = "lua/main.lua"
 distEntry = "dist/entry.lua"
 priority = 100
+loadlistExtra = []
 
 [lua.hooks]
 scripts = []
 objects = []
 
-[patches]
-mode = "none"
+[lua.hooks.merge]
 
 [native]
 plugins = ["dist/my-mod.dll"]
+
+[native.steam]
+mode = "off"
+
+[patches]
+mode = "none"
+bundle = []
 
 [i18n]
 defaultLocale = "en"
@@ -27,6 +45,5 @@ en = "i18n/en.json"
 ru = "i18n/ru.json"
 
 [i18n.dialogues]
-en = "i18n/dialogues/en.kzd"
 ru = "i18n/dialogues/ru.kzd"
-
+en = "i18n/dialogues/en.kzd"
